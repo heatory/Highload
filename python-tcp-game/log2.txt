@@ -1,0 +1,81 @@
+01:44:22.946218 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 64, bad cksum 0 (->3cb6)!)
+    localhost.53741 > localhost.8089: Flags [S], cksum 0xfe34 (incorrect -> 0x714e), seq 1288782456, win 65535, options [mss 16344,nop,wscale 6,nop,nop,TS val 539487375 ecr 0,sackOK,eol], length 0
+01:44:22.946234 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 64, bad cksum 0 (->3cb6)!)
+    localhost.53741 > localhost.8089: Flags [S], cksum 0xfe34 (incorrect -> 0x714e), seq 1288782456, win 65535, options [mss 16344,nop,wscale 6,nop,nop,TS val 539487375 ecr 0,sackOK,eol], length 0
+01:44:22.946289 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 64, bad cksum 0 (->3cb6)!)
+    localhost.8089 > localhost.53741: Flags [S.], cksum 0xfe34 (incorrect -> 0x4dfd), seq 151850364, ack 1288782457, win 65535, options [mss 16344,nop,wscale 6,nop,nop,TS val 539487375 ecr 539487375,sackOK,eol], length 0
+01:44:22.946291 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 64, bad cksum 0 (->3cb6)!)
+    localhost.8089 > localhost.53741: Flags [S.], cksum 0xfe34 (incorrect -> 0x4dfd), seq 151850364, ack 1288782457, win 65535, options [mss 16344,nop,wscale 6,nop,nop,TS val 539487375 ecr 539487375,sackOK,eol], length 0
+01:44:22.946297 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0xaf06), seq 1, ack 1, win 6379, options [nop,nop,TS val 539487375 ecr 539487375], length 0
+01:44:22.946298 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0xaf06), seq 1, ack 1, win 6379, options [nop,nop,TS val 539487375 ecr 539487375], length 0
+01:44:22.946304 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0xaf06), seq 1, ack 1, win 6379, options [nop,nop,TS val 539487375 ecr 539487375], length 0
+01:44:22.946305 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0xaf06), seq 1, ack 1, win 6379, options [nop,nop,TS val 539487375 ecr 539487375], length 0
+01:44:26.636315 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60, bad cksum 0 (->3cba)!)
+    localhost.53741 > localhost.8089: Flags [P.], cksum 0xfe30 (incorrect -> 0x2f64), seq 1:9, ack 1, win 6379, options [nop,nop,TS val 539491048 ecr 539487375], length 8
+01:44:26.636334 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60, bad cksum 0 (->3cba)!)
+    localhost.53741 > localhost.8089: Flags [P.], cksum 0xfe30 (incorrect -> 0x2f64), seq 1:9, ack 1, win 6379, options [nop,nop,TS val 539491048 ecr 539487375], length 8
+01:44:26.636346 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x924c), seq 1, ack 9, win 6379, options [nop,nop,TS val 539491048 ecr 539491048], length 0
+01:44:26.636351 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x924c), seq 1, ack 9, win 6379, options [nop,nop,TS val 539491048 ecr 539491048], length 0
+01:44:26.636480 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 56, bad cksum 0 (->3cbe)!)
+    localhost.8089 > localhost.53741: Flags [P.], cksum 0xfe2c (incorrect -> 0xb267), seq 1:5, ack 9, win 6379, options [nop,nop,TS val 539491048 ecr 539491048], length 4
+01:44:26.636493 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 56, bad cksum 0 (->3cbe)!)
+    localhost.8089 > localhost.53741: Flags [P.], cksum 0xfe2c (incorrect -> 0xb267), seq 1:5, ack 9, win 6379, options [nop,nop,TS val 539491048 ecr 539491048], length 4
+01:44:26.636499 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x9248), seq 9, ack 5, win 6379, options [nop,nop,TS val 539491048 ecr 539491048], length 0
+01:44:26.636502 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x9248), seq 9, ack 5, win 6379, options [nop,nop,TS val 539491048 ecr 539491048], length 0
+01:44:30.765446 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 59, bad cksum 0 (->3cbb)!)
+    localhost.53741 > localhost.8089: Flags [P.], cksum 0xfe2f (incorrect -> 0x0d1d), seq 9:16, ack 5, win 6379, options [nop,nop,TS val 539495163 ecr 539491048], length 7
+01:44:30.765458 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 59, bad cksum 0 (->3cbb)!)
+    localhost.53741 > localhost.8089: Flags [P.], cksum 0xfe2f (incorrect -> 0x0d1d), seq 9:16, ack 5, win 6379, options [nop,nop,TS val 539495163 ecr 539491048], length 7
+01:44:30.765473 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x721b), seq 5, ack 16, win 6379, options [nop,nop,TS val 539495163 ecr 539495163], length 0
+01:44:30.765479 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x721b), seq 5, ack 16, win 6379, options [nop,nop,TS val 539495163 ecr 539495163], length 0
+01:44:30.765547 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 56, bad cksum 0 (->3cbe)!)
+    localhost.8089 > localhost.53741: Flags [P.], cksum 0xfe2c (incorrect -> 0x923a), seq 5:9, ack 16, win 6379, options [nop,nop,TS val 539495163 ecr 539495163], length 4
+01:44:30.765554 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 56, bad cksum 0 (->3cbe)!)
+    localhost.8089 > localhost.53741: Flags [P.], cksum 0xfe2c (incorrect -> 0x923a), seq 5:9, ack 16, win 6379, options [nop,nop,TS val 539495163 ecr 539495163], length 4
+01:44:30.765565 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x7217), seq 16, ack 9, win 6379, options [nop,nop,TS val 539495163 ecr 539495163], length 0
+01:44:30.765571 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x7217), seq 16, ack 9, win 6379, options [nop,nop,TS val 539495163 ecr 539495163], length 0
+01:44:33.812424 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 59, bad cksum 0 (->3cbb)!)
+    localhost.53741 > localhost.8089: Flags [P.], cksum 0xfe2f (incorrect -> 0xef2d), seq 16:23, ack 9, win 6379, options [nop,nop,TS val 539498188 ecr 539495163], length 7
+01:44:33.812436 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 59, bad cksum 0 (->3cbb)!)
+    localhost.53741 > localhost.8089: Flags [P.], cksum 0xfe2f (incorrect -> 0xef2d), seq 16:23, ack 9, win 6379, options [nop,nop,TS val 539498188 ecr 539495163], length 7
+01:44:33.812450 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x5a6e), seq 9, ack 23, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812456 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x5a6e), seq 9, ack 23, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812537 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 59, bad cksum 0 (->3cbb)!)
+    localhost.8089 > localhost.53741: Flags [P.], cksum 0xfe2f (incorrect -> 0xab19), seq 9:16, ack 23, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 7
+01:44:33.812557 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [F.], cksum 0xfe28 (incorrect -> 0x5a66), seq 16, ack 23, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812559 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 59, bad cksum 0 (->3cbb)!)
+    localhost.8089 > localhost.53741: Flags [P.], cksum 0xfe2f (incorrect -> 0xab19), seq 9:16, ack 23, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 7
+01:44:33.812569 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x5a67), seq 23, ack 16, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812573 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [F.], cksum 0xfe28 (incorrect -> 0x5a66), seq 16, ack 23, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812574 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x5a67), seq 23, ack 16, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812580 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x5a66), seq 23, ack 17, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812585 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [.], cksum 0xfe28 (incorrect -> 0x5a66), seq 23, ack 17, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812654 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [F.], cksum 0xfe28 (incorrect -> 0x5a65), seq 23, ack 17, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812676 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.53741 > localhost.8089: Flags [F.], cksum 0xfe28 (incorrect -> 0x5a65), seq 23, ack 17, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812694 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x5a65), seq 17, ack 24, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+01:44:33.812696 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 52, bad cksum 0 (->3cc2)!)
+    localhost.8089 > localhost.53741: Flags [.], cksum 0xfe28 (incorrect -> 0x5a65), seq 17, ack 24, win 6379, options [nop,nop,TS val 539498188 ecr 539498188], length 0
+
