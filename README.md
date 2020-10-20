@@ -8,7 +8,8 @@
  * hostname - **CLONE_NEWUTS**; 
  * файловой системы - **CLONE_NEWNS**; 
  * сети - **CLONE_NEWNET**; 
- * pid - **CLONE_NEWPID** 
+ * pid - **CLONE_NEWPID**.
+ 
 А также лимитирование по памяти задаётся при выполнении программы.
 
 ### [3 Лабораторная работа](https://github.com/heatory/Highload/tree/master/python-tcp-game "3 Лабораторная работа")
