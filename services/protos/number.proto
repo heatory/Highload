@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service NumberService {
+    rpc Check (NumberInfo) returns (Response) {}
+}
+
+message NumberInfo {
+    string number = 1;
+    int32 code = 2;
+}
+
+message Response {
+    bool isOk = 1;
+    string message = 2;
+}

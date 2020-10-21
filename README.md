@@ -15,3 +15,7 @@
 ### [3 Лабораторная работа](https://github.com/heatory/Highload/tree/master/python-tcp-game "3 Лабораторная работа")
 
 TCP клиент-серверная игра угадай число.
+
+### [4 Лабораторная работа](https://github.com/heatory/Highload/tree/master/services "4 Лабораторная работа")
+
+Cервис А (сервис верификации) и сервис Б (сервис телефонов) на разных языках программирования (**Node.js** и **Python**) + *RPC* + *GraphQL*.
