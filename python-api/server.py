@@ -17,14 +17,18 @@ app = Flask(__name__)
 
 @app.route("/v1/current/")
 def current():
-    city = request.args['city']
+    city = request.args.get('city', None)
+    if city is None :
+        return 'Invalid parametres'
     weather_data = requests.get(CURRENT_URL + '?q=' + city + '&units=metric&appid=' + API_KEY).json()
     return jsonify(city=city, unit='celsius', temperature=round(weather_data['main']['temp']))
 
 @app.route("/v1/forecast/")
 def forecast():
-    city = request.args['city']
-    dt = request.args['dt']
+    city = request.args.get('city', None)
+    dt = request.args.get('dt', None)
+    if city is None or dt is None :
+        return 'Invalid parametres'
     weather_data = requests.get(FORECAST_URL + '?q=' + city + '&units=metric&appid=' + API_KEY).json()
     for weather in weather_data['list']:
     	if int(dt) == int(weather['dt']):
