@@ -4,6 +4,8 @@
 
 Сервис прогноза погоды ( + конфигурация для разворачивания в docker ).
 
+UPD. [Сервис погоды на Node.js](https://github.com/heatory/Highload/tree/master/nodejs-api "Сервис погоды на Node.js")
+
 Программа, запускающая другие в контейнере написана на C и лежит [тут](https://github.com/heatory/Highload/tree/master/isolation "тут"). Поддержаны изоляции:
  * hostname - **CLONE_NEWUTS**; 
  * файловой системы - **CLONE_NEWNS**; 
